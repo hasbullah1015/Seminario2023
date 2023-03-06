@@ -39,7 +39,7 @@
         }
     ?>
     <div class="container">
-        <img src="/media/alex.jpg" alt="alex-foto" ><br><br>
+        <img src="/face_id_app_web_app/media/alex.jpg" alt="alex-foto" ><br><br>
         <div class="row"><p>ID:<?php echo $id ?></p></div>
         <div class="row"><p>Nombre:<?php echo $nombre ?></p></div>
         <div class="row"><p>Apellido:<?php echo $apellido ?></p></div>
