@@ -27,8 +27,8 @@ p{
 
 }
 
-hr {
-    color: rgb(255, 255, 255);
+.box hr {
+    color: rgb(249, 18, 18);
 }
 
 .row .box{
