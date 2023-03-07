@@ -20,10 +20,10 @@
     
 </head>
 <body > 
-<div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
+<div id="video-background"><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
     <div class="container ">
     <br><br><br>
-        <div class="row mx-auto">
+        <div class="row text-align:center">
             <h1>Bienvenido al sistema de control:</h1><br>
             <h2>Por favor, ingrese su usuario y contraseña: </h2>
         </div>   
