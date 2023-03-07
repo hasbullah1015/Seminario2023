@@ -25,6 +25,10 @@ p{
 
 }
 
+hr {
+    color: rgb(255, 255, 255);
+}
+
 .row .box{
     text-align: center;
 
