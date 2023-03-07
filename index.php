@@ -29,7 +29,7 @@
         </div>   
 
         <div class="row">
-            <div class="col-sm-3 col-md-3 slide">
+            <div class="col-sm-3 col-md-3 ">
                 <form method="post" action="index_panel.html">
                     <label for="user">USER: </label>
                         <input type="text" name="user" id="user" ><br><br>  
