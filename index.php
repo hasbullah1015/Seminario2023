@@ -21,7 +21,7 @@
 </head>
 <body > 
     <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
-    <div class="container mx-auto">
+    <div class="container">
     <br><br><br>
         <div class="row">
             <h1>Bienvenido al sistema de control:</h1><br>
@@ -29,7 +29,7 @@
         </div>   
 
         <div class="row">
-            <div class="col-sm-3 col-md-3 ">
+            <div class="col-sm-3 col-md-3 mx-auto">
                 <form method="post" action="index_panel.html">
                     <label for="user">USER: </label>
                         <input type="text" name="user" id="user" ><br><br>  
