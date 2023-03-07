@@ -28,7 +28,7 @@
             <h2>Por favor, ingrese su usuario y contraseña: </h2>
             
 
-        <div class="row text-center" >
+        <div class="row" >
             <div class="col-sm-3 col-md-3 slide">
             <form method="post" action="index_panel.html">
             <label for="user">USER: </label>
