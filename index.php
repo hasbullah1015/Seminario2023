@@ -21,7 +21,7 @@
 </head>
 <body > 
     <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
-    <div class="container">
+    <div class="container mx-auto">
     <br><br><br>
         <div class="row">
             <h1>Bienvenido al sistema de control:</h1><br>
