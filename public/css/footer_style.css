@@ -9,7 +9,7 @@
 h2{
     font-size: 16px !important;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
 
 }
 h4{
