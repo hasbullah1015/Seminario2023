@@ -16,9 +16,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="/face_id_app_web_app/codigo/css/index.css"  rel="stylesheet"  type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
 </head>
 <body>
-    <div id="video-background" ><video src="/face_id_app_web_app/media/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
+    <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
     <div class="container alig">
         <div class="row text-center">
             <h1>Bienvenido al sistema de :</h1>
