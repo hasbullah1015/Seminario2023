@@ -74,7 +74,7 @@ button {
     display: inline-block;
     border-radius: 4px;
     background-color: #000000;
-    border: none;
+    border: 20px;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
@@ -82,7 +82,7 @@ button {
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 25px;
+    margin: 5px;
   }
 
 
