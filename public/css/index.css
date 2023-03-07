@@ -70,7 +70,7 @@ footer h4:hover{
 }
 
 
-.button {
+button {
     display: inline-block;
     border-radius: 4px;
     background-color: #000000;
