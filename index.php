@@ -23,7 +23,7 @@
     <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
     <div class="container alig">
         <div class="row text-center">
-            <h1>Bienvenido al sistema de :</h1>
+            <h1>Bienvenido al sistema de control :</h1>
             
 
         <div class="row">
