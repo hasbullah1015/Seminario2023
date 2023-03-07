@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
-    <div class="container alig">
+    <div class="container align-self-center">
         <div class="row text-center">
             <br>
             <h1>Bienvenido al sistema de control:</h1><br>
