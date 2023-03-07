@@ -1,3 +1,9 @@
+<?php 
+    session_start();
+    include('face_id_app_web_app/codigo/php/databaseconnection.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,12 +19,21 @@
 </head>
 <body>
     <div id="video-background" ><video src="/face_id_app_web_app/media/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
+    <div class="container alig">
+        <div class="row text-center">
+            <h1>Bienvenido al sistema de :</h1>
+            
 
-    <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 slide">
-                
-                hola
+
+            <form method="post" action="index_panel.html">
+                <input type="text" name="user" id="user"><br>
+                <input type="password" name="password" id="password"><br>
+                <button type="submit">Send</button>
+
+            </form>
+        
             </div>
         </div>
     </div>

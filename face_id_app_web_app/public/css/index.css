@@ -4,15 +4,23 @@
     box-sizing: border-box;
     position: relative;
 
+
 }
 
+h1{
+    color: rgb(94, 0, 235) !important;
+    font-size: 40px !important;
+
+}
 h2{
     color: rgb(0, 0, 0) !important;
     font-size: 40px !important;
 
 }
 
-
+footer h4:hover{
+    color: blueviolet;
+}
 
 .navbar-collapse{
     justify-content: space-between;
@@ -77,9 +85,7 @@ video{
 footer{    background-color: rgba(0, 0, 0, 0.3);
     margin-top:auto; }
 
-footer h4:hover{
-    color: blueviolet;
-}
+
 
 
 
