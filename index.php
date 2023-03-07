@@ -26,7 +26,7 @@
     <div class="container ">
     <br><br><br>
         <div class="row text-center">
-            <h1>Bienvenido,:</h1><br>
+            <h1>Bienvenido,</h1><br>
             <h2>Por favor, ingrese su usuario y contraseña: </h2>
         </div>   
 
