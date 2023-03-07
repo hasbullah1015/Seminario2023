@@ -32,7 +32,7 @@
             <div class="col-sm-12 col-md-12 slide">
 
             <form method="post" action="index_panel.html">
-            <label for="user">Nombre: </label>
+            <label for="user">NombreEEE: </label>
                 <input type="text" name="user" id="user" ><br><br>  
             <label for="password">Contraseña: </label>
                 <input type="password" name="password" id="password"><br><br> 
