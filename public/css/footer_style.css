@@ -1,7 +1,7 @@
 
 
 .box{
-    border:rgb(255, 0, 238) 10px;
+    border:rgb(255, 0, 238) 10px !important;
 }
 
 #linkedin:hover{
