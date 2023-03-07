@@ -33,9 +33,9 @@
 
             <form method="post" action="index_panel.html">
             <label for="user">Nombre: </label>
-                <input type="text" name="user" id="user" ><br><br><br>
+                <input type="text" name="user" id="user" ><br><br>  
             <label for="password">Contraseña: </label>
-                <input type="password" name="password" id="password"><br>
+                <input type="password" name="password" id="password"><br><br> 
             <button type="submit">Send</button>
 
             </form>
