@@ -23,7 +23,7 @@
     <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
     <div class="container align-self-center">
         <div class="row text-center">
-            <br>
+            <br><br><br>
             <h1>Bienvenido al sistema de control:</h1><br>
             <h2>Por favor, ingrese su usuario y contraseña: </h2>
             
