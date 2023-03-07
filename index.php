@@ -23,14 +23,14 @@
     <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
     <div class="container alig">
         <div class="row text-center">
-            <h1>Bienvenido al sistema de control :</h1>
+            <h1>Bienvenido al sistema de control:</h1>
             
 
         <div class="row">
             <div class="col-sm-12 col-md-12 slide">
 
             <form method="post" action="index_panel.html">
-                <input type="text" name="user" id="user"><br>
+                <input type="text" name="user" id="user"hNombre: ><br>
                 <input type="password" name="password" id="password"><br>
                 <button type="submit">Send</button>
 
