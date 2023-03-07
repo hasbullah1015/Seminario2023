@@ -28,7 +28,7 @@ p{
 }
 
 .box p hr {
-    color: rgb(249, 18, 18);
+    color: rgb(249, 18, 18) !important;
 }
 
 .row .box{
