@@ -19,7 +19,7 @@
 
     
 </head>
-<body>
+<body class="align-items-center justify-content-center"> 
     <div id="video-background" ><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
     <div class="container align-self-center">
     <br><br><br>
