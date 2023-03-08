@@ -105,9 +105,7 @@ footer{    background-color: rgba(0, 0, 0, 0.3);
 input[type="text"]
     {
         background-color: transparent;
-        border: 0px;
-        outline:rgba(0, 0, 0, 0.322);
-
+        border-bottom: solid blue; 
     }
 
 
