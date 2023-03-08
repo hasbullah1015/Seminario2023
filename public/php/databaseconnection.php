@@ -20,5 +20,8 @@
     if(!$sqlquery){
         echo "Usuario no encontrado";
     }
+    else{
+        echo "usuario encontrado";
+    }
  
 ?>
