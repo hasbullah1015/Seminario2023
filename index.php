@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    include('face_id_app_web_app/codigo/php/databaseconnection.php');
+    include('public/php/databaseconnection.php');
 
 ?>
 
