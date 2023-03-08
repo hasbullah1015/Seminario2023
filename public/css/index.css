@@ -130,7 +130,7 @@ input
 
     }
     .container{
-        viewport-fit: ;
+        min-height: 100vh;
     }
 }
 
