@@ -22,7 +22,7 @@
 </head>
 <body style=""> 
 <div id="video-background"><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
-    <div class="container vh-100 ">
+    <div class="container vh-70 ">
     <br><br><br>
         <div class="row text-center">
         <b><h1 class="display-1">Bienvenido,</h1></b><br>
