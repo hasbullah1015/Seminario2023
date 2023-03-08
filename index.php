@@ -1,4 +1,7 @@
+<?php 
+    include('public/php/databaseconnection.php');
 
+?>
 
 <!DOCTYPE html>
 <html lang="es-mx">
