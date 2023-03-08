@@ -75,7 +75,7 @@ footer h4:hover{
 form button {
     display: flex;
     border-radius: 4px;
-    background-color: #000000;
+    background-color: #ff0000;
     border: 20px;
     color: #FFFFFF;
     text-align: center;
@@ -141,11 +141,6 @@ input
     }
     Footer {margin-top:auto;}
 
-    img{
-        width: 120px;
-        height: 120px;
-        border-radius: 80px;
-        border-color: brown ;
     }
 
     video{
