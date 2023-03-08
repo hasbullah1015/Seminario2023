@@ -1,8 +1,4 @@
-<?php 
-    session_start();
-    include('public/php/databaseconnection.php');
 
-?>
 
 <!DOCTYPE html>
 <html lang="es-mx">
