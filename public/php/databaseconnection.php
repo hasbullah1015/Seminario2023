@@ -15,11 +15,11 @@
     $user = $_POST['user'];
     $pswd = $_POST['password'];
     $sqlquery =mysqli_query($connection,"SELECT * FROM  administracion WHERE usr = '$user' AND pass ='$pswd'");
-    if(!$sqlquery){
-        echo "Usuario no encontrado";
+    if($sqlquery->num_rows > 0){
+        echo "Usuarioencontrado";
     }
     else{
-        echo "usuario encontrado";
+        echo "usuario no encontrado";
     }
  
 ?>
