@@ -93,6 +93,8 @@ form button:hover {
     padding-right: 25px;
     background-color: #ffffff;
     color: black;
+    border-radius: 24px;
+
   }
   
 
