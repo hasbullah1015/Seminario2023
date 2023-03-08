@@ -7,7 +7,6 @@
 
 }
 
-
 h1{
     color: rgba(0, 0, 0, 0.722) !important;
     font-size: 40px !important;
@@ -109,7 +108,7 @@ input
         border-bottom: solid rgb(0, 0, 0) 1px; 
     }
 
-    input[type="text"] :hover
+    input:hover
     {
         background-color: transparent;
         border: 0px;
