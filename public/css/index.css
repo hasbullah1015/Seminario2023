@@ -102,7 +102,11 @@ footer{    background-color: rgba(0, 0, 0, 0.3);
     margin-top:auto; }
 
 
-
+    input[type="text"]
+    {
+        background: transparent;
+        border: none;
+    }
 
 
 @media (orientation:landscape) {
