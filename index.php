@@ -15,9 +15,9 @@
 
     
 </head>
-<body style=""> 
+<body > 
 <div id="video-background"><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
-    <div class="container vh-75 ">
+    <div class="container">
     <br>
         <div class="row text-center">
         <b><h1 class="display-1">Bienvenido,</h1></b><br>
