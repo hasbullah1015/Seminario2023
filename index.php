@@ -23,7 +23,7 @@
 <body style=""> 
 <div id="video-background"><video src="/public/assets_img/renderizado-26011.mp4" autoplay="true" muted="true" loop="true" ></video> </div>
     <div class="container vh-75 ">
-    <br><br><br>
+    <br><br>
         <div class="row text-center">
         <b><h1 class="display-1">Bienvenido,</h1></b><br>
         <h2 class="display-2">Por favor, ingrese su usuario y contraseña:</h2><br>
