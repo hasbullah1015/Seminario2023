@@ -17,7 +17,7 @@
     $pswd = $_POST['password'];
     $sqlquery =mysqli_query($connection,"SELECT * FROM  administracion WHERE usr = '$user' AND pass ='$pswd'");
     if($sqlquery->num_rows > 0){
-        header("public/html/index_panel.html");
+        include("public/html/index_panel.html");
     }
     else{
         echo "usuario no encontrado";
