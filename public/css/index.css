@@ -88,34 +88,14 @@ form button {
 
 
 
-form  button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
 
-
-form button span:after {
-    content: '>';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-    
-  }
-
-
-form button:hover span {
+form button:hover {
     padding-right: 25px;
+    background-color: #ffffff;
+    color: black;
   }
   
 
-form button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
 
 video{
     position: absolute;
