@@ -6,15 +6,19 @@
 
     $connection= mysqli_connect($dbhost,$dbuser,$dbpswd,$dbname);
     if(!$connection){
+
         die("no se logro hacer la conexión con la db admin: ".mysqli_error());
     }
 
+?>
+
+
+<?php
     $user = $_POST["user"];
     $pswd = $_POST["password"];
     $sqlquery =mysqli_query($connection,"SELECT * FROM  administracion WHERE usr = '".$user."' AND pass ='".$pswd."'");
     if(!$sqlquery){
         echo "Usuario no encontrado";
-        exit;
     }
-    echo "Bienvenido";
+ 
 ?>
