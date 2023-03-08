@@ -11,7 +11,7 @@
 
     $user = $_POST["user"];
     $pswd = $_POST["password"];
-    $sqlquery =mysqli_query($connection,"SELECT * FROM  usuarios WHERE usuario = '".$user."' AND contraseña ='".$pswd."'");
+    $sqlquery =mysqli_query($connection,"SELECT * FROM  administracion WHERE usr = '".$user."' AND pass ='".$pswd."'");
     if(!$sqlquery){
         echo "Usuario no encontrado";
         exit;
