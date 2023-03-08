@@ -102,11 +102,19 @@ footer{    background-color: rgba(0, 0, 0, 0.3);
     margin-top:auto; }
 
 
-input[type="text"]
+input[type="text"] 
     {
         background-color: transparent;
         border: 0px;
         border-bottom: solid rgb(0, 0, 0) 1px; 
+    }
+
+    input[type="text"] :hover
+    {
+        background-color: transparent;
+        border: 0px;
+        border-bottom: solid rgb(255, 255, 255) 1px; 
+        color: white;
     }
 
 
