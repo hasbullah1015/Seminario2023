@@ -32,6 +32,7 @@
 
         <div class="row">
             <div class="col-sm-3 col-md-3 mx-auto slide">
+                <br>
                 <form method="post" action="public/html/index_panel.html">
                     <label for="user">USER: </label>
                         <input type="text" name="user" id="user" ><br><br>  
@@ -39,6 +40,7 @@
                         <input type="password" name="password" id="password"><br><br> 
                     <button type="submit">Send</button>
                 </form>
+                <br>
             </div>
         </div>
     </div>
