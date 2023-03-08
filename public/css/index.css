@@ -86,7 +86,7 @@ button {
     margin: 5px;
   }
 
-  .button span:after {
+  button span:after {
     content: '>';
     position: absolute;
     opacity: 0;
