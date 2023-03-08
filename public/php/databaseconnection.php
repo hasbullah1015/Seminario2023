@@ -10,6 +10,7 @@
         die("no se logro hacer la conexión con la db admin: ".mysqli_error());
     }
     echo "se hizo conexion";
+    break;
 
 
     $user = $_POST['user'];
