@@ -97,8 +97,13 @@ video{
     z-index: 0;
 }
 
-footer{    background-color: rgba(0, 0, 0, 0.3);
-    margin-top:auto; }
+footer{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top:auto; 
+    position: absolute;
+	bottom: 0;
+
+}
 
 
 input
