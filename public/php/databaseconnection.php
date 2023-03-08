@@ -21,7 +21,7 @@
 
     }
     else{
-        echo "usuario no encontrado";
+        header('Location: index.php');
     }
     mysqli_close($connection);
  
