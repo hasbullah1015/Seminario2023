@@ -124,11 +124,7 @@ input
         border-radius: 80px;
         border-color: brown ;
     }
-    body{
-        min-height: 100vh; 
-        display:flex;
-        flex-direction:column;
-    }
+
     video{
         min-height: 100vh;
 
@@ -139,15 +135,7 @@ input
 
 @media (orientation : portrait) {
 
-    body {
-        margin: 10px;
-        min-height: 100vh;
-        max-width: 600px;
-        background-color: rgba(255, 255, 255, 0.834); 
-        margin: 0 auto;
-        border-radius: 20px;
 
-    }
 
     .container{
         min-height: 80vh;
