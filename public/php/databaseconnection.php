@@ -11,10 +11,7 @@
     }
     echo "se hizo conexion";
 
-?>
 
-
-<?php
     $user = $_POST['user'];
     $pswd = $_POST['password'];
     $sqlquery =mysqli_query($connection,"SELECT * FROM  administracion WHERE usr = '$user' AND pass ='$pswd'");
