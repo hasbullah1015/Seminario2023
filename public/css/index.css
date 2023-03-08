@@ -106,7 +106,7 @@ input[type="text"]
     {
         background-color: transparent;
         border: 0px;
-        border-bottom: solid blue; 
+        border-bottom: solid rgb(0, 0, 0) 5px; 
     }
 
 
