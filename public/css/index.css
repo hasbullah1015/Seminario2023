@@ -52,6 +52,7 @@ footer h4:hover{
     justify-content: center;
     -webkit-transition: 1s linear;
     transition: 1s linear;
+    text-align: center; 
     
 }
 
