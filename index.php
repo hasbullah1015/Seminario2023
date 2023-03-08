@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-sm-3 col-md-3 mx-auto slide">
                 <br>
-                <form method="post" action="public/php/databaseconnection.php">
+                <form method="post" action="public/php/login.php">
                     <label for="user">USER: </label>
                         <input type="text" name="user" id="user" ><br><br>  
                     <label for="password">PASS: </label>
