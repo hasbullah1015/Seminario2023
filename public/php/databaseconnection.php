@@ -1,7 +1,4 @@
 <?php
-
-class Conexion{
-    function conexionDB(){
     $dbhost = "127.0.0.1";
     $dbuser = "u614989997_admindb";
     $dbpswd = "6TUH72toIDh5RpVGBi";
@@ -17,6 +14,4 @@ class Conexion{
 
     mysqli_close($connection);
 
-    }
-}
 ?>
