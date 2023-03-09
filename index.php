@@ -29,9 +29,9 @@
                 <br>
                 <form method="post" action="public/php/login.php">
                     <label for="user">USER: </label>
-                        <input type="text" name="user" id="user" ><br><br>  
+                        <input type="text" name="user" id="user" placeholder="user" ><br><br>  
                     <label for="password">PASS: </label>
-                        <input type="password" name="password" id="password"><br><br> 
+                        <input type="password" name="password" id="password" placeholder="password"><br><br> 
                     <button type="submit">Send</button>
                 </form>
                 <br>
