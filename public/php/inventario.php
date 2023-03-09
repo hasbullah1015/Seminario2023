@@ -11,18 +11,14 @@
         $connection= mysqli_connect("127.0.0.1","u614989997_admindb","6TUH72toIDh5RpVGBi","u614989997_db_inventario");
         $sqlquery =mysqli_query($connection,"SELECT * FROM inventario WHERE idProducto='LAC-01'");
         $datos=mysqli_fetch_row($sqlquery);
-        if(!$datos){echo 'error';
-        }
         while($datos)
         {
-            echo $datos['0'];
-            echo $datos['1'];
-            echo $datos['2'];
-            echo $datos['3'];
-        }
-    
+        ?>
+            <p> <?php echo $datos['0']?> </p>
+    <?php
+      }
     ?>
-
+ 
     Leches: <br>
 
     
