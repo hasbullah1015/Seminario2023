@@ -9,8 +9,7 @@
     if(!$connection){
 
         die("no se logro hacer la conexión con la db admin: ".mysqli_error());
-    }
-    echo 
+    } 
 
 ?>
 
@@ -26,7 +25,8 @@
     <?php
          $sqlquery =mysqli_query($connection,"SELECT * FROM inventario WHERE idProducto='LAC-01'");
         $datos=mysqli_fetch_row($sqlquery);
-        if(!$datos){echo 'error';}
+        if(!$datos){echo 'error';
+        }
         while($datos)
         {
             echo $datos['0'];
