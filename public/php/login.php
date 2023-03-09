@@ -11,8 +11,6 @@
         die("no se logro hacer la conexión con la db admin: ".mysqli_error());
     }
 
-    mysqli_close($connection);
-
 
     $user = $_POST['user'];
     $pswd = $_POST['password'];
@@ -24,5 +22,7 @@
     else{
         header('Location: index.php');
     }
+
+    mysqli_close($connection);
 
 ?>
