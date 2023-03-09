@@ -13,8 +13,8 @@
         $sqlquery =mysqli_query($connection,"SELECT * FROM inventario WHERE idProducto='LAC-01'");
         if($connection){
             while($datos = $sqlquery ->fetch_array(MYSQLI_ASSOC)) {
-                echo $datos["nombre"];
-                echo $datos["cantidad"];
+                echo $datos['nombre'];
+                echo $datos['cantidad'];
             }
 
         }
