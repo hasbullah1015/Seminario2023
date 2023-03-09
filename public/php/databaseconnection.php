@@ -5,7 +5,7 @@
     $dbname = "u614989997_db_inventario";
 
     $connection= mysqli_connect($dbhost,$dbuser,$dbpswd,$dbname);
-    //$sqlquery =mysqli_query($connection,"INSERT INTO producto (cantidad,categoria,idProducto,nombre) VALUES (1,'LACTEO','LAC-01','LECHE ALPURA');  ");
+    $sqlquery =mysqli_query($connection,"INSERT INTO producto (cantidad,categoria,idProducto,nombre) VALUES (20,'LACTEO','LAC-02','LECHE ALPURA DESC')");
 
     if(!$connection){
 
