@@ -1,6 +1,7 @@
 <?php
 session_start();
-include('databaseconnection.php');
+require_once 'databaseconnection.php';
+
 
     $user = $_POST['user'];
     $pswd = $_POST['password'];
