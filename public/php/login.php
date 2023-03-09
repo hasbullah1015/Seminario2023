@@ -1,5 +1,6 @@
 <?php
-include ('databaseconnection.php');
+include_once('databaseconnection.php');
+Conexion::conexionDB();
 ?>
 
 <?php
