@@ -7,6 +7,7 @@
     <title>inventario</title>
 </head>
 <body>
+    hola
     <?php
         $connection= mysqli_connect("127.0.0.1","u614989997_admindb","6TUH72toIDh5RpVGBi","u614989997_db_inventario");
         $sqlquery =mysqli_query($connection,"SELECT * FROM inventario WHERE idProducto='LAC-01'");
